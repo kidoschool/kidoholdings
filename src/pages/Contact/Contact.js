@@ -66,12 +66,20 @@ function Contact(props) {
             </div>
             </section>
 
+            <section className="get-touch pt-5">
+            <div className="container">
+                <div className="row justify-content-center">
+                    <div className="col-lg-11">
+                        <h1 className="get-touch-text font-weight-bolder mb-4">Get in touch</h1>
+                        <p>We are always looking for franchisees, master franchisees, investors and other partners to grow the Kïdo network around the world. If you would like to partner with us in any capacity, get in touch, and someone appropriate will get right back to you.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
         <section className="contact-section py-5" id="contact-us">
         <div className="container">
-            <header className="text-center mb-5">
-                <h2 className="text-uppercase lined">Contact Us</h2>
-            </header>
             <div className="row justify-content-center">
                 <div className="col-lg-11">
                     {/* <form onSubmit="" className="contact-form" id="validateform">
