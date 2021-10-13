@@ -81,7 +81,7 @@ function Home(props) {
                                         <h3 className="card-title">Kïdo Schools</h3>
                                         <p className="card-text">We operate and franchise premium preschools under the Kïdo and Safari Kid brands in five countries.</p>
                                         <div className="platform-link text-center py-4">
-                                            <Link to="/" className="my-btn center">Learn More</Link>
+                                            <Link to="/schools" className="my-btn center">Learn More</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -101,7 +101,7 @@ function Home(props) {
                                         <h3 className="card-title">Kïdo Village</h3>
                                         <p className="card-text">Micro-preschools and daycare centres (Pods), run by passionate providers from. their homes, on the Kïdo platform.</p>
                                         <div className="platform-link text-center py-4">
-                                            <Link to="/" className="my-btn center">Learn More</Link>
+                                            <Link to="/kido-village" className="my-btn center">Learn More</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -120,7 +120,7 @@ function Home(props) {
                                 <h1 className="where-we-text font-weight-bolder">Where we are</h1>
                                 <p>With our main office in London, and hubs in Houston, Dubai, Mumbai, Bangalore, Singapore and Hong Kong, we cover all parts of the world. If you are looking to partner with us for any of our products in any part of the world, get in touch.</p>
                                 <div className="platform-link text-center py-4">
-                                    <Link to="/" className="my-btn center">Contact Us</Link>
+                                    <Link to="/contact" className="my-btn center">Contact Us</Link>
                                 </div>
                             </div>
                         </div>

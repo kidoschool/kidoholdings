@@ -1,4 +1,5 @@
 import React, {useState}  from 'react';
+import {Link} from "react-router-dom";
 import SchoolBanner from '../../assets/school-banner.jpg';
 import SchoolNetwork1 from '../../assets/school-network-bn1.jpg';
 import SchoolNetwork2 from '../../assets/school-network-bn2.jpg';
@@ -75,7 +76,7 @@ function Schools(props){
                         <h1 className="Meeting-text font-weight-bolder mb-4">Wow schools</h1>
                         <p>Under our two brands, Kïdo and Safari Kid International, we are creating magical and engaging learning spaces. Infused with cutting edge pedagogy and great teachers to nurture and enhance every child’s innate curiosity, creativity and ability to be a lifelong learner.</p>
                         <div className="offering-link text-center py-4">
-                            <a href="https://64a46671-a752-4ee4-9521-3a4736fb44a1.filesusr.com/ugd/a1d20b_d20a2524574448f98418490f0f8adc77.pdf" target="_blank" rel="noreferrer" className="my-btn center">Curriculum brochure</a>
+                            <Link to="/franchise" className="my-btn center">Our franchise offering</Link>
                         </div>
                     </div>
                 </div>

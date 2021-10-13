@@ -10,6 +10,7 @@ import Contact from './pages/Contact/Contact';
 import Footer from "./components/Footer/Footer";
 import ScrollToTop from "./ScrollToTop"
 import './App.css';
+import KidoVillage from './pages/KidoVillage/kidoVillage';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path="/pedagogy" component={Pedagogy} />
           <Route path="/schools" component={Schools} />
           <Route path="/franchise" component={Franchise} />
+          <Route path="/kido-village" component={KidoVillage} />
           <Route path="/contact" component={Contact} />
         </Switch>
         <Footer />

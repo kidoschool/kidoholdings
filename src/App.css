@@ -198,6 +198,11 @@ a.my-btn:hover {
   height: 50%;
 } */
 
+video{
+  width: 100%;
+  height: auto;
+}
+
 
 /*--------footer-area start---------*/
 .footer-area{

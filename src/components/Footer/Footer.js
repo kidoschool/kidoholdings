@@ -31,12 +31,13 @@ function Footer(props) {
                                 <ul className="list-unstyled row justify-content-center">
                                   <div className="col-lg-5">
                                     <li><Link className="" to="/">Home</Link></li>
-                                    <li><Link className="" to="/opportunity">Opportunity</Link></li>
-                                    <li><Link className="" to="/curriculum">Curriculum</Link></li>
+                                    <li><Link className="" to="/pedagogy">Pedagogy</Link></li>
+                                    <li><Link className="" to="/schools">Schools</Link></li>
+                                    <li><Link className="" to="/franchise">franchise</Link></li>
                                   </div>
                                   <div className="col-lg-5">
                                     <li><Link className="" to="/about">About</Link></li>
-                                    <li><a className="" href="/usa">USA</a></li>
+                                    <li><a className="" href="/kido-village">Kido Village</a></li>
                                     <li><Link className="" to="/contact">Contact</Link></li>
                                   </div>
                                 </ul>
