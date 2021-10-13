@@ -22,7 +22,7 @@ function Home(props) {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="banner-text-area">
-                            <h1 className="banner-text">preschool franchise, redefined</h1>
+                            <h1 className="banner-text">early years, reimagined</h1>
                             </div>
                         </div>
                     </div>
