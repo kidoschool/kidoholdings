@@ -1,0 +1,12 @@
+{"blogs" : [
+    {
+        "id": 1001,
+        "name": "Is it all too much?",
+        "intro": "<div class='1hN1O _2S8BH'><div type='first' data-hook='rcv-block-first'></div><p id='viewer-foo' class='mm8Nw _1j-51 _1atvN _1FoOD _3M0Fe _2WrB- _1atvN public-DraftStyleDefault-block-depth0 public-DraftStyleDefault-text-ltr'><span class='_2PHJq public-DraftStyleDefault-ltr'>The launch of our schools generated a lot of press in the UK in 2017. The <a href='https://www.dailymail.co.uk/news/article-4216120/Public-speaking-Mandarin-lessons-given-tots.html' target='_blank' rel='noopener noreferrer noopener' class='_3Bkfb _1lsz7'>Daily Mail called us the 'nursery for tiger mums,'</a> the Standard <a href='https://www.standard.co.uk/comment/comment/sam-leith-why-can-t-we-just-let-our-tots-muck-about-a3465626.html' target='_top' rel='noopener noreferrer noopener' class='_3Bkfb _1lsz7'>thought it was all too much</a> and <a href='https://www.thetimes.co.uk/article/4a666ae8-f217-11e6-a45f-cc1b99ad256c' target='_top' rel='noopener noreferrer noopener' class='_3Bkfb _1lsz7'>the Times did both</a>. Our CEO, Aniruddh Gupta had written a response to that coverage at the time, which neatly summarises our approach to early childhood education.</span></p><div type='paragraph' data-hook='rcv-block1'></div><div id='viewer-5bcik' class='mm8Nw _1j-51 _1atvN _1FoOD _3M0Fe _2WrB- _1atvN public-DraftStyleDefault-block-depth0 public-DraftStyleDefault-text-ltr'><span class='_2PHJq public-DraftStyleDefault-ltr'><br></span></div><div type='empty-line' data-hook='rcv-block2'></div><p id='viewer-88n4r' class='mm8Nw _1j-51 _1atvN _1FoOD _3M0Fe _2WrB- _1atvN public-DraftStyleDefault-block-depth0 public-DraftStyleDefault-text-ltr'><span class='_2PHJq public-DraftStyleDefault-ltr'>Please read the response here: www.safarikidinternational.com/news-events/is-it-all-too-much</span></p><div type='paragraph' data-hook='rcv-block3'></div><div type='last' data-hook='rcv-block-last'></div></div>",
+        "img": "https://kido.school/wp-content/uploads/2020/07/Learning-and-Developement-1-1024x512-1-800x505.jpg",
+        "slug": "safari-kid-international-is-now-kido",
+        "date": "Jun 1, 2020"
+    }
+
+]
+}

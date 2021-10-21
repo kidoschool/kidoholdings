@@ -66,6 +66,17 @@ a {color: #666; text-decoration: none;  transition: 0.3s; cursor: pointer;}
 .bg-light{
   background-color: rgb(250, 250, 250) !important;
 }
+
+.btn-outline-primary{
+  border-color: #00346b;
+  color: #00346b;
+}
+
+
+.btn-outline-primary:hover{
+  background-color: #00346b;
+  color: #fff;
+}
 /*--------section header start---------*/
 
 .nav-link{color: #fff!important; font-size: 0.8em; font-family: 'Montserrat', sans-serif; font-weight: 600;}
@@ -206,6 +217,13 @@ video{
   height: auto;
 }
 
+.blog-img{
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  height: 230px;
+}
 
 /*--------footer-area start---------*/
 .footer-area{

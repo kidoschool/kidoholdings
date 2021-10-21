@@ -39,6 +39,9 @@ function Header(props){
                 <NavLink className="nav-link" to="/kido-village">Kido Village</NavLink>
               </li>
               <li className="nav-item pl-5">
+                <NavLink className="nav-link" to="/blog">Blog</NavLink>
+              </li>
+              <li className="nav-item pl-5">
                 <NavLink className="nav-link" to="/contact">Contact</NavLink>
               </li>
             </ul>

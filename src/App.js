@@ -7,10 +7,12 @@ import Pedagogy from './pages/Pedagogy/Pedagogy';
 import Schools from './pages/Schools/Schools';
 import Franchise from './pages/Franchise/Franchise';
 import Contact from './pages/Contact/Contact';
+import KidoVillage from './pages/KidoVillage/kidoVillage';
+import Blog from './pages/Blog/Blog';
+import BlogInfo from "./pages/Blog/BlogInfo";
 import Footer from "./components/Footer/Footer";
 import ScrollToTop from "./ScrollToTop"
 import './App.css';
-import KidoVillage from './pages/KidoVillage/kidoVillage';
 
 
 function App() {
@@ -27,6 +29,8 @@ function App() {
           <Route path="/schools" component={Schools} />
           <Route path="/franchise" component={Franchise} />
           <Route path="/kido-village" component={KidoVillage} />
+          <Route path="/blog" component={Blog} />
+          <Route path='/post/:title' component={BlogInfo} />
           <Route path="/contact" component={Contact} />
         </Switch>
         <Footer />
