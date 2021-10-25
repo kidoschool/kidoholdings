@@ -3,8 +3,7 @@ import Axios from 'axios';
 import $ from 'jquery';
 import parse from 'html-react-parser';
 import {Link} from "react-router-dom";
-// import RelatedBlogs from "../../components/RelatedBlogs";
-
+import RelatedBlogs from "../../components/RelatedBlogs";
 
 function BlogInfo(props) {
 
@@ -45,7 +44,7 @@ function BlogInfo(props) {
                 </div>
             </section>
 
-            {/* <RelatedBlogs/> */}
+            <RelatedBlogs/>
         </>
     )
 
