@@ -13,6 +13,7 @@ import Map3 from "../../components/Map/Map3";
 import centerContents1 from '../../MapCenters.json';
 import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/css/image-gallery.css";
+import { isMobile } from "react-device-detect";
 
 
 
@@ -54,8 +55,10 @@ function Schools(props){
         },
       ];
 
-    //   const [ map_zoom, setMap_zoom ] = useState("");
       const [ map_centre ] = useState({lat: 19,lng: 10});
+      let map_zoom = 0;
+
+        isMobile ? map_zoom = 0 : map_zoom = 2
   
 
     return(
@@ -103,7 +106,7 @@ function Schools(props){
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-12 text-center">
-                    <Map3 centerContents1={centerContents1} map_centre={map_centre} map_zoom={2}   />
+                    <Map3 centerContents1={centerContents1} map_centre={map_centre} map_zoom={map_zoom}   />
                     </div>
                 </div>
             </div>  
