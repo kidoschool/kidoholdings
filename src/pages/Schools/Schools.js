@@ -58,7 +58,7 @@ function Schools(props){
       const [ map_centre ] = useState({lat: 19,lng: 10});
       let map_zoom = 0;
 
-        isMobile ? map_zoom = 0 : map_zoom = 2
+        isMobile ? map_zoom = 1 : map_zoom = 2
   
 
     return(
