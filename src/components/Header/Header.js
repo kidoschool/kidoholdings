@@ -2,13 +2,19 @@ import React from 'react';
 import {withRouter, NavLink} from "react-router-dom";
 import logo from '../../assets/kido-logo.png';
 import $ from 'jquery';
+import { isMobile } from "react-device-detect";
 
 
 function Header(props){
 
-  $(".nav-link").click(function(){
-    $("#navcolbtn").click();
-  });
+  if(isMobile){
+    $(".nav-link,.dropdown-item").click(function(){
+      if(!$(this).hasClass("dropdown-toggle")){
+        $("#navcolbtn").click();
+      }
+    });
+  }
+
 
     return(
       <>
