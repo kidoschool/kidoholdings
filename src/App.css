@@ -20,7 +20,7 @@ h3, .h3 {font-size: 1.15em;}
 h4, .h4 {font-size: 1.1em;}
 h5, h6, .h5, .h6{font-size: 1em; }
 
-p,li {color: #666; font-size: 1em;}
+p,li {color: #666; font-size: 1em; text-align: justify;}
 span{color: #666; font-weight: 600;}
 a {color: #666; text-decoration: none;  transition: 0.3s; cursor: pointer;}
 
