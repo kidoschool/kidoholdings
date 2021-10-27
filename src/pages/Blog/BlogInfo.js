@@ -1,8 +1,6 @@
-import React, {useState, useEffect} from 'react';
-import Axios from 'axios';
+import React from 'react';
 import $ from 'jquery';
 import parse from 'html-react-parser';
-import {Link} from "react-router-dom";
 import RelatedBlogs from "../../components/RelatedBlogs";
 
 function BlogInfo(props) {
@@ -15,7 +13,7 @@ function BlogInfo(props) {
     
     var selectedBlog = {};
     $.each(blogContents, function (k, v) {
-      if(name == v.SlugName){
+      if(name === v.SlugName){
         return selectedBlog = v;
       }
     });
@@ -28,7 +26,7 @@ function BlogInfo(props) {
                 <div className="row justify-content-center">
                     <div className="col-lg-9 text-center">
                         <h1 className="blog-info-title py-5">{selectedBlog.Name}</h1>
-                        <img src={selectedBlog.Image} className="blog-info-img img-fluid"/>
+                        <img src={selectedBlog.Image} className="blog-info-img img-fluid" alt="blog-info"/>
                     </div>
                 </div>
             </div>
@@ -38,7 +36,7 @@ function BlogInfo(props) {
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-10">
-                            <div>{parse(selectedBlog.LongDescription)}</div>
+                            <div className="long-disc">{parse(selectedBlog.LongDescription)}</div>
                         </div>
                     </div>
                 </div>

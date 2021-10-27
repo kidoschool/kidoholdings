@@ -230,6 +230,12 @@ video{
   height: 600px;
 }
 
+.long-disc img{
+  max-width: 150px;
+  /* width: 50%; */
+  height: auto;
+}
+
 /*--------footer-area start---------*/
 .footer-area{
   background-color: #00346b;
@@ -325,4 +331,10 @@ a.fap-text{
   .quick-links{
     padding-left: 0px;
   }
+
+  .blog-info-img{
+    width: 100%;
+    height: 400px;
+  }
+
 }

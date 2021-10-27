@@ -2,7 +2,7 @@
     import Axios from "axios";
     import {Link} from "react-router-dom";
     import Moment from 'react-moment';
-    import moment from 'moment';
+    // import moment from 'moment';
 
 
     function Blog(props) {
@@ -50,7 +50,7 @@
               {Object.entries(blogData).map((item,k) => {
                 console.log(item)
               return( <>
-              <div className="col-lg-4 pb-4">
+              <div className="col-lg-4 pb-4" key={item[0]}>
                   <div className="card shadow">
                   {/* <img className="blog-card-img-top" src={item[1].Image} alt="Card image cap"/> */}
                     <div style={{backgroundImage: `url(${item[1].Image})`}} className="card-img-top blog-img"></div>

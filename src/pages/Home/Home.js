@@ -6,13 +6,17 @@ import Banner_video from '../../assets/banner-video-Mp4.mp4';
 import Platform1 from '../../assets/platform1.jpg';
 import Platform2 from '../../assets/platform2.jpg';
 import Platform3 from '../../assets/platform3.jpg';
+import { isMobile } from "react-device-detect";
+
 
 
 function Home(props) {
 
 
-    // const [ map_zoom, setMap_zoom ] = useState("");
     const [ map_centre ] = useState({lat: 19,lng: 10});
+    let map_zoom = 0;
+
+    isMobile ? map_zoom = 1 : map_zoom = 2
 
 
     return(
@@ -22,7 +26,7 @@ function Home(props) {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="banner-text-area">
-                            <h1 className="banner-text">early years, reimagined</h1>
+                                <h1 className="banner-text">early years, reimagined</h1>
                             </div>
                         </div>
                     </div>
@@ -30,7 +34,7 @@ function Home(props) {
             </section>
 
             <section className="welcome my-5">
-            <div className="container">
+                <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-11">
                             <div className="welcome-text-area">
@@ -132,7 +136,7 @@ function Home(props) {
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-12 text-center">
-                        <Map3 centerContents1={centerContents1} map_centre={map_centre} map_zoom={2}   />
+                            <Map3 centerContents1={centerContents1} map_centre={map_centre} map_zoom={map_zoom} />
                         </div>
                     </div>
                 </div>  
