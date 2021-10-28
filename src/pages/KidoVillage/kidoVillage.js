@@ -33,7 +33,7 @@ function KidoVillage(props){
         </section>
 
 
-        <section className="how-it-works py-5">
+        <section className="how-it-works pt-5">
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-6">
@@ -43,8 +43,17 @@ function KidoVillage(props){
                     <div className="col-lg-5">
                         <iframe width="450" height="250" src="https://www.youtube.com/embed/HB4Pn1BftpQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     </div>
-                    <div className="contact-link text-center pt-5">
+                </div>
+            </div>
+        </section>
+
+        <section className="village-button pb-5">
+            <div className="container">
+                <div className="row justify-content-center">
+                    <div className="col-lg-10">
+                        <div className="contact-link text-center pt-5">
                             <a href="https://www.kidovillage.com/" target="_blank" rel="noreferrer" className="my-btn center">Visit the Website</a>
+                        </div>
                     </div>
                 </div>
             </div>

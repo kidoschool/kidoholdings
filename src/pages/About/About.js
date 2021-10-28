@@ -105,7 +105,7 @@ function About(props){
                                             <small>London</small>
                                         </div>
                                     </div>
-                                    <div className="sm-team-data pt-4 d-none">
+                                    <div className="sm-team-data pt-4">
                                         <p className="text-center">Head of Public Sector, Standard Chartered. Ex Goldman, JP Morgan. Member, Council of Foreign Relations. Georgetown University.</p>
                                     </div>
                                 </div>
@@ -118,7 +118,7 @@ function About(props){
                                             <small>Singapore</small>
                                         </div>
                                     </div>
-                                    <div className="sm-team-data pt-4 d-none">
+                                    <div className="sm-team-data pt-4">
                                         <p className="text-center">Head of Revenue Management, Conrad Asia. Vice President HSMAI South Asia. Cornell University.</p>
                                     </div>
                                 </div>
@@ -131,7 +131,7 @@ function About(props){
                                             <small>Dubai</small>
                                         </div>
                                     </div>
-                                    <div className="sm-team-data pt-4 d-none">
+                                    <div className="sm-team-data pt-4">
                                         <p className="text-center">Head of Africa Structuring, Standard Chartered. London School of Economics, CFA.</p>
                                     </div>
                                 </div>
@@ -144,7 +144,7 @@ function About(props){
                                             <small>Houston</small>
                                         </div>
                                     </div>
-                                    <div className="sm-team-data pt-4 d-none">
+                                    <div className="sm-team-data pt-4">
                                         <p className="text-center">Co-Head, Energy Business0, Stark Investments. Director Electricity Research, Citadel. </p>
                                     </div>
                                 </div>
@@ -159,7 +159,7 @@ function About(props){
                                             <small>Mumbai</small>
                                         </div>
                                     </div>
-                                    <div className="sm-team-data pt-4 d-none">
+                                    <div className="sm-team-data pt-4">
                                         <p className="text-center">Entrepreneur with 18y track record. Vice President and Head of Marketing, Inter Publicity (India). MBA, JBIMS,</p>
                                     </div>
                                 </div>
@@ -172,7 +172,7 @@ function About(props){
                                             <small>London</small>
                                         </div>
                                     </div>
-                                    <div className="sm-team-data pt-4 d-none">
+                                    <div className="sm-team-data pt-4">
                                         <p className="text-center">15 years experience in the UK and internationally. Most recently Asquith and Bright Horizons, with Outstanding Ofsted Ratings</p>
                                     </div>
                                 </div>
@@ -185,7 +185,7 @@ function About(props){
                                             <small>London</small>
                                         </div>
                                     </div>
-                                    <div className="sm-team-data pt-4 d-none">
+                                    <div className="sm-team-data pt-4">
                                         <p className="text-center">International Award winning Artist and Documentary Filmmaker. MFA, City University, Hong Kong.</p>
                                     </div>
                                 </div>
@@ -198,7 +198,7 @@ function About(props){
                                             <small>Houston</small>
                                         </div>
                                     </div>
-                                    <div className="sm-team-data pt-4 d-none">
+                                    <div className="sm-team-data pt-4">
                                         <p className="text-center">10y+ experience in education management across three countries, in the Pre-K and K-12 space </p>
                                     </div>
                                 </div>
@@ -213,7 +213,7 @@ function About(props){
                                             <small>Hong Kong</small>
                                         </div>
                                     </div>
-                                    <div className="sm-team-data pt-4 d-none">
+                                    <div className="sm-team-data pt-4">
                                         <p className="text-center">Teacher, marketer, quality control analyst and environmental analyst </p>
                                     </div>
                                 </div>
@@ -226,7 +226,7 @@ function About(props){
                                             <small>Dubai</small>
                                         </div>
                                     </div>
-                                    <div className="sm-team-data pt-4 d-none">
+                                    <div className="sm-team-data pt-4">
                                         <p className="text-center">Over 10 years experience in the early years, including as teacher and principal. Masters in Education </p>
                                     </div>
                                 </div>
@@ -239,7 +239,7 @@ function About(props){
                                             <small>Mumbai</small>
                                         </div>
                                     </div>
-                                    <div className="sm-team-data pt-4 d-none">
+                                    <div className="sm-team-data pt-4">
                                         <p className="text-center">Over 15y experience in HR across start ups and large organizations at different leadership levels. </p>
                                     </div>
                                 </div>
