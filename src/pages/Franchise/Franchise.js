@@ -31,7 +31,7 @@ function Franchise(props){
             </div>
         </section>
 
-        <section className="franchise-platform py-5 bg-light">
+        <section className="franchise-platform my-5">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-11">
@@ -52,22 +52,22 @@ function Franchise(props){
                                     <div className="col-lg-3">
                                          <div className="list-data text-center">
                                             <i className="far fa-thumbs-up fav-icons"></i>
-                                            <h3>Operations</h3>
-                                            <small>Online operations manuals, regulatory compliance and full school management system</small>
+                                            <h3>Quality Assurance</h3>
+                                            <small>Complete online quality assurance app, for every aspect of operations of a school</small>
                                         </div>
                                     </div>
                                     <div className="col-lg-3">
                                      <div className="list-data text-center">
                                             <i className="fas fa-chalkboard-teacher fav-icons"></i>
-                                            <h3>Operations</h3>
-                                            <small>Online operations manuals, regulatory compliance and full school management system</small>
+                                            <h3>Training</h3>
+                                            <small>Online and offline ongoing training, for the whole staff, including teachers and key personnel</small>
                                         </div>
                                     </div>
                                     <div className="col-lg-3">
                                      <div className="list-data text-center">
                                             <i className="fas fa-mobile-alt fav-icons"></i>
-                                            <h3>Operations</h3>
-                                            <small>Online operations manuals, regulatory compliance and full school management system</small>
+                                            <h3>App Suite</h3>
+                                            <small>The Kïdo app suite covers everything from taking enquiries to parent communications.</small>
                                         </div>
                                     </div>
                                     </div>
@@ -75,29 +75,29 @@ function Franchise(props){
                                     <div className="col-lg-3">
                                      <div className="list-data text-center">
                                             <i className="fas fa-home fav-icons"></i>
-                                            <h3>Operations</h3>
-                                            <small>Online operations manuals, regulatory compliance and full school management system</small>
+                                            <h3>School design</h3>
+                                            <small>Our team assists on school design, procurement, classroom layout and interiors</small>
                                         </div>
                                     </div>
                                     <div className="col-lg-3">
                                      <div className="list-data text-center">
                                             <i className="fas fa-chart-line fav-icons"></i>
-                                            <h3>Operations</h3>
-                                            <small>Online operations manuals, regulatory compliance and full school management system</small>
+                                            <h3>Marketing</h3>
+                                            <small>Over 5000 templates for marketing, and full benefits of our local and international branding</small>
                                         </div>
                                     </div>
                                     <div className="col-lg-3">
                                      <div className="list-data text-center">
                                             <i className="fas fa-user-friends fav-icons"></i>
-                                            <h3>Operations</h3>
-                                            <small>Online operations manuals, regulatory compliance and full school management system</small>
+                                            <h3>People Management</h3>
+                                            <small>Access to our HR systems for recruitment, onboarding, performance management and HR records</small>
                                         </div>
                                     </div>
                                     <div className="col-lg-3">
                                      <div className="list-data text-center">
                                             <i className="fas fa-cube fav-icons"></i>
-                                            <h3>Operations</h3>
-                                            <small>Online operations manuals, regulatory compliance and full school management system</small>
+                                            <h3>Curriculum</h3>
+                                            <small>Online delivery of curriculum, with full support with video guides, detailed lesson plans and training</small>
                                         </div>
                                     </div>
                                 </div>
