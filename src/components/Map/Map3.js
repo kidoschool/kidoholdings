@@ -9,7 +9,7 @@ export class Map3 extends Component {
     super(props);
     this.onMarkerClick = this.onMarkerClick.bind(this);
     this.state = {
-      showingInfoWindow: false,
+      showingInfoWindow: true,
       activeMarker: {},
       selectedPlace: {}
     };
